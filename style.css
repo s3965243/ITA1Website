@@ -30,13 +30,13 @@ body{
 
 p {
   font-family: 'Itim';
-  font-size: large;
+  font-size: x-large;
   
 }
 
 .pagecontent li {
   font-family: 'Itim';
-  font-size: larger;
+  font-size: x-large;
   
 }
 
@@ -48,6 +48,7 @@ h1{
 h2{
   font-family: 'Changa';
   font-size: x-large;
+  color: rgb(10, 48, 109)
 }
 
 h3{
@@ -105,7 +106,28 @@ a:active{
   font-family: 'Itim';
 }
 
-#B5{
-
+#fanart{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   
+}
+
+.art{
+  border-radius: 10%;
+}
+#art-1{
+  float:right;
+  margin-right: 87px;
+}
+#art-2{
+  float:right;
+  margin-right: 87px;
+}
+
+
+#gridtable{
+  display: inline-grid;
+  grid-template-columns: 30% 70%;
+  width: 100%;
 }
