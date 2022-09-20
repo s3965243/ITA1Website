@@ -18,13 +18,14 @@ padding-left: 10px;
 }
 
 
-
 #navigation ul{
     padding-left: 0;
 }
 
 body{
-  background-color:#fcf9f9 
+  background-color:#fcf9f9;
+  padding-bottom: 50px;
+  
 }
 
 p {
@@ -46,47 +47,65 @@ h1{
 
 h2{
   font-family: 'Changa';
+  font-size: x-large;
 }
 
 h3{
-  font-family: 'Walter Turncoat';
-  font-weight: 300;
+  font-family: 'Varela Round';
+  font-weight: 700;
   font-size: larger;
 }
 
 .pagecontent{
-
   padding-top: 100px;
 }
 
-table{
-  width: 100%;
-  margin:auto;
-  padding-bottom: 10px;
+#gridContainer{
+  width: 60%;
+  display: inline-grid;
+  grid-template-columns: auto auto;
+  padding-top: 30px;
+  padding-bottom: 50px;
 }
 
-td{
-  width: 10%;
+#gridItem-2{
+padding-left: 50px;
 }
 
-.navigation a {
+#pfp {
+  float: right;
+  border-radius: 10%;
+}
+
+nav a {
   color:#F7F6F6;
 }
 
 a:link{
   text-decoration: none;
+  color: rgb(88, 77, 77);
 }
 
-a:visited{
+nav a:visited{
   text-decoration: none;
   color: #F7F6F6;
 }
 
-a:hover{
+nav a:hover{
   text-decoration: none;
-  color: rgb(88, 77, 77);
+  color: rgb(75, 48, 48);
 }
 
 a:active{
   text-decoration: none;
+  color: rgb(88, 77, 77);
+}
+
+#jobLink{
+  font-family: 'Itim';
+}
+
+#B5{
+
+  
 }
