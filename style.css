@@ -3,17 +3,90 @@ header {
   height: 50px;
   display:block;
   background-color:pink ;
-
+  position: fixed;
 
 }
 
-.navigation li {
-vertical-align: middle;
+#navigation li {
+height:100%;
+width: auto;
+font-family: 'Itim';
 display: inline-block;
-padding: 10px 5%;
+padding-right: 10px;
+padding-left: 10px;
 
+}
+
+
+
+#navigation ul{
+    padding-left: 0;
+}
+
+body{
+  background-color:#fcf9f9 
+}
+
+p {
+  font-family: 'Itim';
+  font-size: large;
+  
+}
+
+.pagecontent li {
+  font-family: 'Itim';
+  font-size: larger;
+  
+}
+
+h1{
+  font-family: 'Days One';
+  font-size: xx-large;
+}
+
+h2{
+  font-family: 'Changa';
+}
+
+h3{
+  font-family: 'Walter Turncoat';
+  font-weight: 300;
+  font-size: larger;
+}
+
+.pagecontent{
+
+  padding-top: 100px;
+}
+
+table{
+  width: 100%;
+  margin:auto;
+  padding-bottom: 10px;
+}
+
+td{
+  width: 10%;
 }
 
 .navigation a {
-  color: white;
+  color:#F7F6F6;
+}
+
+a:link{
+  text-decoration: none;
+}
+
+a:visited{
+  text-decoration: none;
+  color: #F7F6F6;
+}
+
+a:hover{
+  text-decoration: none;
+  color: rgb(88, 77, 77);
+}
+
+a:active{
+  text-decoration: none;
 }
